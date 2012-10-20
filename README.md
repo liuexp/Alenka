@@ -17,7 +17,14 @@ Data load times measured in minutes, not in hours.
   
 Open source and free 
 
-Build Note
+Build Note for Archlinux
 ----------
-* Download cudpp(not the one in AUR) and make install one.
-* Use gcc44 (in AUR) due to compatibility of cuda-toolkit and gcc 4.7.
+        * Download cudpp(not the one in AUR) and make install one.
+        * Check with libcudpp.so, libcudpp\_hash.so, cudpp.h, cudpp\_hash.h
+        * Use gcc44 (in AUR) due to compatibility of cuda-toolkit and gcc 4.7.
+
+Test Note
+--------
+        * TPC-H for data generation.
+        * ./dbgen -s 10 -T L
+        * You might need older revisions for transforming data into binary formats.
