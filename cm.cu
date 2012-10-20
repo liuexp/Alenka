@@ -54,7 +54,7 @@
 #include "atof.h"
 #include "itoa.h"
 #include "compress.cu"
-#include "./cudpp_src_2.0/include/cudpp_hash.h"
+#include "/home/liuexp/Downloads/cudpp_src_2.0/include/cudpp_hash.h"
 
 
 #ifdef _WIN64
