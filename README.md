@@ -1,3 +1,5 @@
+Intro
+------
 Alenka is a modern analytical database engine written to take advantage of vector based processing and high bandwidth of modern GPUs.
 Features include:
 
@@ -14,3 +16,8 @@ Fast database loads
 Data load times measured in minutes, not in hours.
   
 Open source and free 
+
+Build Note
+----------
+* Download cudpp(not the one in AUR) and make install one.
+* Use gcc44 (in AUR) due to compatibility of cuda-toolkit and gcc 4.7.
